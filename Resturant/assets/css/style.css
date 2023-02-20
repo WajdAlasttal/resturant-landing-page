@@ -1,0 +1,1120 @@
+/*Public*/
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: 'Alegreya', serif;
+}
+
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.clrfix {
+    clear: both;
+}
+
+/*End Public*/
+
+/*Start header section*/
+.options {
+    position: fixed;
+    right: 0;
+    top: 100px;
+    background-color: #fff;
+    width: 50px;
+    height: 100px;
+    z-index: 999999999;
+    border-radius: 5px 0px 0px 5px;
+
+}
+
+.options li a {
+    display: block;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 25px;
+}
+
+.header {
+    text-align: center;
+    background-image: url('../image/shutterstock_277750193.jpg');
+    background-size: cover;
+    color: white;
+    height: 100vh;
+}
+
+.header .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.navbar {
+    overflow: hidden;
+    padding-top: 20px;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.navbar .logo {
+    float: left;
+    width: 40%;
+}
+
+.navbar .logo img {
+    width: 25%;
+}
+
+.navbar .nav {
+    float: left;
+    width: 60%;
+    padding-top: 20px;
+}
+
+.navbar .nav .item-list {
+    display: inline-block;
+}
+
+.navbar .nav .item-list a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.header-content {
+    padding-top: 60px;
+}
+
+.header-content img {
+    width: 25%;
+}
+
+.header h1 {
+    font-size: 76px;
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.header p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    padding: 15px 30px;
+    border: none;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-learn {
+    background-color: #c1ab84;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-learn:hover {
+    background-color: white;
+    color: #000;
+    cursor: pointer;
+}
+
+.btn-visit:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+/*End header section*/
+
+
+
+/*Start About section*/
+.about-img {
+    float: left;
+    width: 40%;
+}
+
+.about-img img {
+    width: 100%;
+}
+
+.about-content {
+    float: left;
+    width: 60%;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.about-content h2 {
+    font-size: 36px;
+    font-weight: 400;
+    color: #253048;
+    margin-bottom: 20px;
+}
+
+.about-content h3 {
+    font-size: 28px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+    color: #c1ab84;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    font-size: 18px;
+    line-height: 30px;
+    width: 74%;
+    margin: auto;
+    text-align: left;
+}
+
+.about-content ul li {
+    width: 74%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.about-content ul li i {
+    background-color: #c1ab84;
+    color: #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    float: left;
+}
+
+.about-content ul li span {
+    float: left;
+    margin-top: 35px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+/*End About section*/
+
+
+/*Start reviewers section*/
+.reviewers {
+    background-color: #f8f8f8;
+    padding: 70px;
+}
+
+.reviewers-content {
+    float: left;
+    width: 60%;
+}
+
+.reviewers-img {
+    float: left;
+    width: 40%;
+}
+
+.reviewers-img img {
+    width: 100%;
+}
+
+.reviewers-content h2 {
+    color: #253048;
+    font-weight: 400;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.reviewers-content h3 {
+    font-size: 28px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+    color: #c1ab84;
+    margin-bottom: 30px;
+}
+
+.reviewers-content p {
+    font-size: 18px;
+    width: 79%;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.reviewers-content i {
+    margin-bottom: 20px;
+    margin-right: 20px;
+    color: #c1ab84;
+    font-size: 18px;
+}
+
+/*End reviewers section*/
+.cover {
+    background-image: url('../image/shutterstock_280369721.jpg');
+    /* height: 50vh; */
+    padding: 250px 0;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/* Start dishes section */
+.dishes {
+    background-color: #f8f8f8;
+    padding: 50px;
+    padding-top: 65px;
+}
+
+.dishes-header {
+    text-align: center;
+}
+
+.dishes-header h2 {
+    font-weight: 400;
+    font-size: 36px;
+    color: #253048;
+    margin-bottom: 20px;
+}
+
+.dishes-header h3 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+    color: #c1ab84;
+    font-size: 28px;
+    margin-bottom: 50px;
+}
+
+.dishes-contents {
+    text-align: center;
+}
+
+.dishes-content {
+    float: left;
+    width: 29%;
+    margin: 20px;
+}
+
+.dishes-content img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.dishes-content h4 {
+    font-size: 21px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.dishes-content p {
+    font-size: 18px;
+    color: gray;
+    line-height: 1.86em;
+    margin-bottom: 65px;
+    font-family: 'Alegreya Sans';
+}
+
+.btn-menu {
+    padding: 15px 25px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-bottom: 70px;
+    background-color: #c1ab84;
+
+}
+
+.btn-menu a {
+    font-family: 'Alegreya Sans';
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+/* End dishes section */
+
+/* Start Comment section */
+.comments {
+    text-align: center;
+    background-image: url('..//image/shutterstock_277750193.jpg');
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+
+.comments i {
+    margin-top: 80pt;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.comments h3 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.comments .comment {
+    font-size: 27px;
+    font-family: 'Alegreya Sans';
+    line-height: 50px;
+    width: 85%;
+    margin-left: 70px;
+    margin-bottom: 30px;
+}
+
+.comments .overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100vh;
+}
+
+.comments .author {
+    font-size: 20px;
+    font-family: 'Alegreya Sans';
+}
+
+.comments .browser {
+    font-size: 18px;
+    font-family: 'Alegreya Sans';
+    color: #b9b9b9;
+}
+
+/* End comment section */
+
+
+/* Start location section */
+.location {
+    background-color: #f8f8f8;
+    padding: 100px 30px 100px 30px;
+}
+
+.location .location-content {
+    float: left;
+    width: 55%;
+}
+
+.location .map {
+    float: left;
+    width: 45%;
+    padding-top: 10px;
+}
+
+.location .map iframe {
+    width: 100%;
+}
+
+.location-content h2 {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 36px;
+    color: #253048;
+    margin-bottom: 20px;
+}
+
+.location-content p {
+    font-size: 18px;
+    color: gray;
+    font-family: 'Alegreya Sans';
+    line-height: 30px;
+    margin-bottom: 35px;
+    width: 84%;
+}
+
+.location-content ul li span {
+    font-size: 18px;
+    color: gray;
+    font-family: 'Alegreya Sans';
+    margin-left: 20px;
+    line-height: 60px;
+}
+
+.location-content ul li i {
+    background-color: #c1ab84;
+    color: #fff;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* End location section */
+
+/* Start footer section */
+
+.footer {
+    background-color: #403d38;
+    padding: 50px;
+}
+
+.footer-content {
+    float: left;
+    width: 25%;
+}
+
+.footer-contents {
+    color: rgb(156, 154, 154);
+
+}
+
+.footer-content h4 {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.footer-content p {
+    font-family: 'Alegreya Sans';
+    line-height: 30px;
+    width: 94%;
+    margin-bottom: 25px;
+}
+
+.footer-content ul li a {
+    text-decoration: none;
+    color: rgb(156, 154, 154);
+    font-family: 'Alegreya Sans';
+    margin-left: 10px;
+    line-height: 45px;
+}
+
+.footer-content ul li a:hover {
+    color: white;
+}
+
+.footer-content ul li span {
+    font-family: 'Alegreya Sans';
+    margin-left: 10px;
+    line-height: 45px;
+}
+
+.footer-contact h4 {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.footer-contact ul li span {
+    font-family: 'Alegreya Sans';
+    margin-left: 10px;
+    line-height: 40px;
+}
+
+.footer-contact ul li span a {
+    text-decoration: none;
+    color: rgb(156, 154, 154);
+    font-family: 'Alegreya Sans';
+    line-height: 45px;
+}
+
+.footer-contact ul li span a:hover {
+    color: white;
+}
+
+.footer-img {
+    background-color: #353330;
+    padding: 85px;
+    text-align: center;
+}
+
+.footer-img p {
+    font-size: 18px;
+    font-family: 'Alegreya Sans';
+    color: #777;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.footer-img i {
+    color: rgb(156, 154, 154);
+    font-size: 24px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    background-color: #403d38;
+    margin-right: 5px;
+}
+
+.footer-img .fa-facebook-f:hover {
+    background-color: #0275d8;
+    color: white;
+}
+
+.footer-img .fa-instagram:hover {
+    background-color: rgb(59, 73, 167);
+    color: white;
+}
+
+.footer-img .fa-tumblr:hover {
+    background-color: rgb(6, 6, 67);
+    color: white;
+}
+
+.footer-img .fa-twitter:hover {
+    color: white;
+    background-color: rgb(8, 178, 235);
+}
+
+/* End footer section */
+
+/* Media section */
+
+@media (min-width:576px) and (max-width:992px) {
+    .navbar .logo {
+        float: none;
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .navbar .nav {
+        float: none;
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .navbar .nav .item-list a {
+        font-size: 30px;
+    }
+
+    /*About media*/
+    .about-img {
+        float: left;
+        width: 40%;
+    }
+
+    .about-img img {
+        margin-top: 100px;
+
+    }
+
+    .about-content {
+        float: left;
+        width: 60%;
+        text-align: left;
+        margin-top: 75px;
+        margin-bottom: 50px;
+    }
+
+    .about-content h2 {
+        font-size: 40px;
+    }
+
+    .about-content h3 {
+        font-size: 30px;
+    }
+
+    .about-content p {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .about-content ul li {
+        width: 100%;
+        overflow: auto;
+    }
+
+    .about-content ul li i {
+        background-color: #c1ab84;
+        color: #fff;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 20px;
+        float: left;
+    }
+
+    .about-content ul li span {
+        float: left;
+        margin-top: 29px;
+        margin-left: 10px;
+        font-size: 20px;
+    }
+
+    /* Reviewers */
+    .reviewers {
+        background-color: #f8f8f8;
+        padding: 80px 20px 80px 20px;
+    }
+
+    .reviewers-content {
+        float: left;
+        width: 50%;
+    }
+
+    .reviewers-img {
+        float: left;
+        width: 50%;
+    }
+
+    .reviewers-img img {
+        width: 100%;
+        padding: 100px 0px 0px 30px;
+
+    }
+
+    .reviewers-content h2 {
+        font-size: 40px;
+    }
+
+    .reviewers-content h3 {
+        font-size: 30px;
+    }
+
+    .reviewers-content p {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .reviewers-content i {
+        margin-bottom: 20px;
+        margin-right: 10px;
+        color: #c1ab84;
+        font-size: 20px;
+    }
+
+    .reviewers-content span {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    /* dishes */
+    .dishes {
+        padding: 10px;
+        padding-top: 60px;
+    }
+
+    .dishes-header h2 {
+        font-size: 40px;
+    }
+
+    .dishes-header h3 {
+        font-size: 30px;
+    }
+
+    .dishes-content {
+        float: left;
+        width: 27%;
+    }
+
+
+    .dishes-content h4 {
+        font-size: 25px;
+    }
+
+    .btn-menu a {
+        font-size: 18px;
+    }
+
+    /* comments */
+    .comments {
+        height: 65vh;
+    }
+
+    .comments h3 {
+        font-size: 40px;
+    }
+
+    .comments .comment {
+        font-size: 30px;
+        width: 80%;
+    }
+
+    .comments .author {
+        font-size: 25px;
+    }
+
+    .comments .browser {
+        font-size: 20px;
+    }
+    /* location  */
+    .location {
+        padding: 100px 20px 100px 20px;
+    }
+    .location .map {
+        padding-top: 70px;
+    }
+    
+    .location-content h2 {
+        font-size: 40px;
+    }
+    
+    .location-content p {
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+    
+    .location-content ul li span {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    
+    .location-content ul li i {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 20px;
+    }
+    /* footer */
+
+    .footer {
+        padding: 0px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    
+    .footer-content {
+        float: left;
+        width: 24%;
+    }
+    
+    .footer-content p {
+        width: 96%;
+    }
+    
+    .footer-content ul li a {
+        margin-left: 5px;
+    }
+    
+    .footer-content ul li span {
+        margin-left: 5px;
+
+    }
+    .footer-contact ul li span {
+        margin-left: 5px;
+    }
+    .footer-img p {
+        font-size: 20px;
+    }
+    
+    .footer-img i {
+        font-size: 25px;
+    }
+    
+}
+
+@media (max-width:576px) {
+    .container {
+        width: 85%;
+    }
+
+    .header {
+        text-align: center;
+        background-image: url('../image/shutterstock_277750193.jpg');
+        background-size: cover;
+        color: white;
+        height: 129vh;
+    }
+
+    .navbar .logo {
+        float: none;
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .navbar .nav {
+        float: none;
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .navbar .nav .item-list a {
+        font-size: 18px;
+        margin: 5px;
+    }
+
+    .header h1 {
+        font-size: 40px;
+        font-family: 'Alegreya', serif;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+
+    .header p {
+        font-family: 'Dancing Script', cursive;
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .btn {
+        padding: 10px 15px;
+        border: none;
+        font-size: 17px;
+        margin-top: 10px;
+    }
+
+    /*About*/
+    .about-img {
+        float: none;
+        width: 90%;
+        margin-top: 30px;
+    }
+
+    .about-content {
+        float: none;
+        width: 100%;
+        text-align: left;
+        margin-top: 100px;
+    }
+
+    .about-content h2 {
+        font-size: 30px;
+    }
+
+    .about-content h3 {
+        font-size: 25px;
+    }
+
+    .about-content p {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .about-content ul li {
+        width: 100%;
+        text-align: left;
+    }
+
+    .about-content ul li i {
+        float: none;
+    }
+
+    .about-content ul li span {
+        float: none;
+        margin-top: 30px;
+        margin-left: 5px;
+        font-size: 15px;
+    }
+
+    /*Reviewers*/
+    .reviewers {
+        padding: 70px 0px 70px 0px;
+    }
+
+    .reviewers-content {
+        float: none;
+        width: 100%;
+        text-align: left;
+    }
+
+    .reviewers-img {
+        float: none;
+        width: 100%;
+    }
+
+    .reviewers-content h2 {
+        font-size: 30px;
+    }
+
+    .reviewers-content h3 {
+        font-size: 25px;
+    }
+
+    .reviewers-content p {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .reviewers-content i {
+        margin-bottom: 10px;
+        margin-right: 5px;
+        color: #c1ab84;
+        font-size: 15px;
+
+    }
+
+    .reviewers-content span {
+        font-size: 16px;
+
+    }
+
+    /* dishes */
+    .dishes {
+        background-color: #f8f8f8;
+        padding: 0;
+        padding-top: 65px;
+    }
+
+    .dishes-header h2 {
+        font-size: 30px;
+    }
+
+    .dishes-header h3 {
+        font-size: 25px;
+    }
+
+    .dishes-content {
+        float: none;
+        width: 100%;
+        margin: 0px;
+    }
+
+    .dishes-content img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .dishes-content h4 {
+        font-size: 25px;
+    }
+
+    .dishes-content p {
+        font-size: 20px;
+    }
+
+    .btn-menu a {
+        font-size: 18px;
+    }
+
+    /* comments */
+    .comments {
+        text-align: center;
+        background-image: url('..//image/shutterstock_277750193.jpg');
+        background-size: cover;
+        height: 100vh;
+        color: white;
+    }
+
+    .comments .comment {
+        font-size: 30px;
+        margin-left: 35px;
+    }
+
+    .comments .author {
+        font-size: 25px;
+
+    }
+
+    .comments .browser {
+        font-size: 20px;
+    }
+
+    /* location */
+
+    .location {
+        padding: 100px 0px 90px 0px;
+    }
+
+    .location .location-content {
+        float: none;
+        width: 100%;
+    }
+
+    .location .map {
+        float: none;
+        width: 100%;
+        padding-top: 70px;
+    }
+
+    .location-content h2 {
+        font-size: 40px;
+    }
+
+    .location-content p {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .location-content ul li span {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+
+    .location-content ul li i {
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 20px;
+    }
+
+    /* footer */
+    .footer {
+        padding-top: 40px;
+    }
+
+    .footer-content {
+        float: none;
+        width: 100%;
+    }
+
+    .footer-content h4 {
+        font-size: 30px;
+    }
+
+    .footer-content p {
+        width: 100%;
+        font-size: 25px;
+    }
+
+    .footer-content ul li a {
+        margin-left: 5px;
+        font-size: 25px;
+    }
+
+    .footer-content ul li span {
+        margin-left: 5px;
+        font-size: 25px;
+    }
+
+    .footer-contact h4 {
+        font-size: 30px;
+    }
+
+    .footer-contact ul li span {
+        font-size: 25px;
+    }
+
+    .footer-contact ul li span a {
+        font-size: 25px;
+    }
+
+    .footer-img {
+        background-color: #353330;
+        padding: 0;
+        text-align: center;
+    }
+
+    .footer-img img {
+        margin-top: 50px;
+    }
+
+    .footer-img p {
+        font-size: 20px;
+        margin-bottom: 20px;
+        margin-top: 0px;
+    }
+
+    .footer-img i {
+        font-size: 25px;
+    }
+
+}
